@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmoothScroll</title>
+    <style>
+        h1{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+    .link{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration:none;
+        padding:15px;
+        border-radius:20px;
+        background-color:blue;
+        display:block;
+        color:white;
+        width:200px;
+        margin-top:5px;
+    }
+    .link:hover{
+        color:blue;
+        background-color:white;
+        border:2px solid blue;
+    }
+    .maindiv{
+        border:5px solid red;
+        padding-top:100px;
+        padding-bottom:100px;
+        margin-top:300px;
+        border-radius:50px;
+        font-size:30px;
+    }
+    #download{
+        padding-top:100px;
+        font-size:30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    </style>
+</head>
+<body>
+<center>
+<h1>Smooth Scroll</h1>
+<a class="sscroll link" href="#t1">Goto T1(with sscroll)</a><br>
+<a class="link" href="#t2">Goto T2(without sscroll)</a><br>
+<a class="sscroll link" href="#t3">Goto T3(with sscroll)</a><br>
+<a class="sscroll link" href="#download">Download</a>
+
+<div class="maindiv" id="t1">HELLO I AM T1</div>
+
+<div class="maindiv" id="t2">HELLO I AM T2</div>
+
+<div class="maindiv" id="t3">HELLO I AM T3</div>
+
+<div id="download">
+To add Smooth Scroll to your website.
+<ul>
+    <li><a href="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">Add Jquery</a></li>
+    <li><a href="#">Add SmoothScroll</a></li>
+</ul>
+</div>
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="smoothScroll.js"></script>
+</body>
+</html>
