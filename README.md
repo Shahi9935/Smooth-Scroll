@@ -1,0 +1,1 @@
+JS plugin to add smooth scroll effect to your website.
